@@ -1,0 +1,152 @@
+.blog{
+  margin-bottom: 150px;
+}
+
+.category-navbar{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.category-list{
+  font-weight: 600;
+  padding: 30px 0;
+  border-bottom: thin solid #C0C0C0;
+}
+
+.category-item{
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 1px 10px;
+}
+
+.recent-posts{
+  display: flex;
+  margin: 30px;
+}
+
+.recent-posts-category{
+  display: flex;
+  margin: 30px;
+  margin-bottom: 50px;
+}
+
+.recent-title{
+  width: 15%;
+  margin-top: 20px;
+}
+
+.recent-title-top{
+  width: 15%;
+}
+
+.title-border{
+  border-top: 5px solid #010101;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.posts-row{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.post-left{
+  margin-left: 3%;
+  margin-right: 7%;
+}
+.post-item{
+  width: 500px;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  border: thin solid #C0C0C0;
+  margin: 20px 30px;
+  position: relative;
+  box-shadow: 2px 2px 4px #C0C0C0;
+}
+
+.post-title{
+  text-decoration: none;
+}
+
+.post-date{
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+.post-excerpt{
+  color: #6d6d6d;
+}
+
+.post-category{
+  font-size: 13px;
+  position: absolute;
+  left: 150px;
+  top: 17px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 1px 10px;
+}
+
+.post-information{
+  width: 50%;
+  padding: 15px;
+}
+
+.post-thumbnail{
+  width: 50%;
+}
+
+.post-link{
+  color: #6d6d6d;
+  position: absolute;
+  bottom: 20px;
+  text-decoration: none;
+}
+
+.recent-category{
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+#python, #Python{
+  color:yellow;
+  background-color: #0b68c7;
+}
+
+#go, #Go{
+  background-color:#23c9ef;
+}
+
+#react, #React{
+  color: aqua;
+  background-color: #010101;
+}
+
+#javascript, #Javascript{
+  color: #010101;
+  background-color: yellow;
+}
+
+#git, #Git{
+  color: #ff7410;
+  background-color: black;
+}
+
+#aws, #Aws{
+  color: aliceblue;
+  background-color: #ff7410; 
+}
+
+#business, #Business{
+  color: black;
+  background-color: greenyellow;
+}
+
+#book, #Book{
+  color: red;
+  background-color: wheat;
+}

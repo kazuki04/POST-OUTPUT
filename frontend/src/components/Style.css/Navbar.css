@@ -1,0 +1,42 @@
+a:link, a:visited, a:hover, a:active {
+  color: black;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  border-top: thin solid #C0C0C0;
+  border-bottom: thin solid #C0C0C0;
+}
+
+.navbar-left{
+  width: 30%;
+  text-align: center;
+}
+
+.navbar-title{
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+  padding: 4%;
+  font-size: 40px;
+}
+
+.navbar-right{
+  width: 70%;
+}
+
+.navbar-list{
+  font-weight: 600;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 60%;
+  margin: 0;
+  padding-top: 4%; 
+
+}
+
+.navlink{
+  text-decoration: none;
+}
