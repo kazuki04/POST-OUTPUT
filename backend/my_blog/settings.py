@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'django_summernote',
     'blog',
     'storages',
     'markdownx'
@@ -152,8 +151,6 @@ AWS_SECRET_ACCESS_KEY = os.environ['AWS_SECRET_ACCESS_KEY']
 AWS_STORAGE_BUCKET_NAME = 'post-output'
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
-
-SUMMERNOTE_THEME = 'bs4'
 
 MARKDOWNX_MARKDOWN_EXTENSIONS = [
     'markdown.extensions.extra',
