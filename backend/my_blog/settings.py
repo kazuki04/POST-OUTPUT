@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'django_summernote',
     'blog',
-    'storages'
+    'storages',
+    'markdownx'
 ]
 
 MIDDLEWARE = [
@@ -153,5 +154,10 @@ AWS_STORAGE_BUCKET_NAME = 'post-output'
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 SUMMERNOTE_THEME = 'bs4'
+
+MARKDOWNX_MARKDOWN_EXTENSIONS = [
+    'markdown.extensions.extra',
+    'markdown.extensions.toc',
+]
 
 CORS_ORIGIN_ALLOW_ALL = True
