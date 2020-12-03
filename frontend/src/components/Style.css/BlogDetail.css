@@ -36,8 +36,16 @@
   /* background-color: ghostwhite; */
 }
 
+.recent-post-list{
+  display: inline-flex;
+  flex-direction: column;
+}
+
 .side-bar-post-link{
-  display: block;
   margin-bottom: 10px;
   text-decoration: none;
+  transition: all  0.3s ease
+}
+.side-bar-post-link:hover{
+  background-color: #cccfd2;
 }
