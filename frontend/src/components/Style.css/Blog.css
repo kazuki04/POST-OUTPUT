@@ -64,6 +64,7 @@
   margin: 20px 30px;
   position: relative;
   box-shadow: 2px 2px 4px #C0C0C0;
+  /* box-shadow:0 8px 20px 0px rgba(0,0,0,0.125); */
 }
 
 .post-title{
@@ -100,10 +101,25 @@
 }
 
 .post-link{
-  color: #6d6d6d;
+  background-color:  #ddd;
+  color: black;
   position: absolute;
   bottom: 20px;
   text-decoration: none;
+  border-radius: 10px;
+  opacity: 0.6;
+  padding: 1px 10px;
+
+  transition: all  0.3s ease
+}
+
+.post-link:hover{
+  background-color: #ff5149;
+  color: white;
+  transform:scale(1);
+  filter:blur(0px);
+  opacity:1;
+  box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
 }
 
 .recent-category{
