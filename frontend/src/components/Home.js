@@ -74,12 +74,12 @@ const Blog = () => {
             <div className="category-list">
                 <nav className="category-navbar">
                     <Link className="category-item" id="python" to="/category/python">Python</Link>
+                    <Link className="category-item" id="django" to="/category/django">Django</Link>
                     <Link className="category-item" id="go" to="/category/go">Go</Link>
                     <Link className="category-item" id="react" to="/category/react">React</Link>
                     <Link className="category-item" id="javascript" to="/category/javascript">JavaScript</Link>
                     <Link className="category-item" id="git" to="/category/git">Git</Link>
                     <Link className="category-item" id="aws" to="/category/aws">AWS</Link>
-                    <Link className="category-item" id="business" to="/category/business">BUSINESS</Link>
                     <Link className="category-item" id="book" to="/category/book">BOOK</Link>
                 </nav> 
             </div>

@@ -1,15 +1,16 @@
 from django.db import models
 from datetime import datetime
 from django.template.defaultfilters import slugify
+from markdownx.models import MarkdownxField
 
 class Categories(models.TextChoices):
   Python = 'python'
+  Django = 'django'
   Go = 'go'
   React = 'react'
   JavaScript = 'javascript'
   Git = 'git'
   AWS = 'aws'
-  Business = 'business'
   Book = 'book'
 
 class BlogPost(models.Model):
@@ -21,7 +22,7 @@ class BlogPost(models.Model):
   year = models.CharField(max_length=4, default='20')
   month = models.CharField(max_length=3)
   day = models.CharField(max_length=2)
-  content = models.TextField()
+  content = MarkdownxField('Content', default='')
   date_created = models.DateTimeField(default=datetime.now, blank=True)
 
   def save(self, *args, **kwargs):
