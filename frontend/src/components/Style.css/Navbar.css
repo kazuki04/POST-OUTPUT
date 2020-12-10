@@ -16,6 +16,7 @@ a:link, a:visited, a:hover, a:active {
 
 .navbar-title{
   font-weight: 600;
+  font-family: arial black;
   text-decoration: none;
   display: block;
   padding: 4%;
@@ -33,7 +34,7 @@ a:link, a:visited, a:hover, a:active {
   justify-content: space-evenly;
   padding-left: 60%;
   margin: 0;
-  padding-top: 4%; 
+  padding-top: 3.5%; 
 
 }
 
